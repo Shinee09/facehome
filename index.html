@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facehome - 𝘥𝘦𝘤𝘰𝘳 𝘧𝘰𝘳 𝘺𝘰𝘶𝘳𝘩𝘰𝘮𝘦</title>
+    <link rel="shortcut icon" href="./asset/img/favicon.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Niconne&display=swap" rel="stylesheet">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./asset/css/normalize.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/animation.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <!-- js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- js bootstrap  4.1.3 -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- js modal
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZQ9PVNRF9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4ZQ9PVNRF9');
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- Slider -->
+        <div class="slider">
+            <div class="swiper-container swiper-sli swiper-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./asset/img/header-img.jpg" alt="" class="banner-img"></div>
+                    <div class="swiper-slide"><img src="./asset/img/pj-3.jpg" alt="" class="banner-img"></div>
+                    <div class="swiper-slide"><img src="./asset/img/pj-5.jpg" alt="" class="banner-img"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <div class="slider__text">
+                <h1>Vững niềm tin - Xây tổ ấm</h1>
+                <h4>Hãy cùng chúng tôi xây dựng ngôi nhà mơ ước cho bạn và để chúng tôi đảm bảo chất lượng công trình trong 10 năm nữa</h4>
+                <a href="#contact">
+                    <button type="button" class="btn btn-advise btn-animation-1">
+                        Tư vấn ngay
+                        <span class="span-btn"></span>
+                        <span class="span-btn"></span>
+                        <span class="span-btn"></span>
+                        <span class="span-btn"></span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <!-- End Slider -->
+
+        <!-- Header -->
+        <div class="container-fluid container-header" id="header">
+            <div class="container">
+                <header class="header">
+                    <div class="logo">
+                        <a href="https://homecorp.vn">
+                            <img src="./asset/img/logo.png" alt="" class="logo-img">
+                            <span class="logo-slogan">decor for yourhome</span>
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Giới thiệu
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#project" class="nav-link">Dự án
+                                </a>
+                            </li>
+                            <li class="nav-item link-services">
+                                <a href="#services" class="nav-link">Dịch vụ
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                                <ul class="nav__services">
+                                    <li class="nav-item nav__service-item">
+                                        <a href="#services" class="nav__service-link">
+                                            Thiết kế kiến trúc
+                                        </a>
+                                    </li>
+                                    <li class="nav-item nav__service-item">
+                                        <a href="#services" class="nav__service-link">
+                                            Thi công xây dựng
+                                        </a>
+                                    </li>
+                                    <li class="nav-item nav__service-item">
+                                        <a href="#services" class="nav__service-link">
+                                            Hoàn thiện nội thất
+                                        </a>
+                                    </li>
+                                    <li class="nav-item nav__service-item">
+                                        <a href="#" class="nav__service-link">
+                                            Báo giá
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Liên hệ
+                                </a>
+                            </li>
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="evenodd">
+                            <circle cx="20" cy="20" r="20" fill="#3ed292"></circle>
+                            <path fill="#FFF" fill-rule="nonzero"
+                                d="M26.017 20.825c-.177 0-.361-.056-.538-.096a7.563 7.563 0 0 1-1.052-.314 1.604 1.604 0 0 0-1.991.805l-.177.362a9.782 9.782 0 0 1-2.135-1.61 9.805 9.805 0 0 1-1.606-2.142l.337-.225a1.612 1.612 0 0 0 .803-1.997 8.336 8.336 0 0 1-.313-1.055 5.99 5.99 0 0 1-.096-.548A2.41 2.41 0 0 0 16.839 12h-2.408a2.406 2.406 0 0 0-1.83.82 2.42 2.42 0 0 0-.578 1.926c.88 6.94 6.34 12.397 13.263 13.254h.305A2.405 2.405 0 0 0 28 25.576v-2.415a2.414 2.414 0 0 0-1.983-2.336zm.401 4.832c0 .231-.1.451-.273.604a.85.85 0 0 1-.658.201c-6.185-.795-11.047-5.694-11.81-11.901a.88.88 0 0 1 .2-.66.802.802 0 0 1 .602-.274h2.41a.803.803 0 0 1 .802.636c.032.22.072.437.12.652.093.425.217.842.37 1.248l-1.124.524a.804.804 0 0 0-.394 1.07 11.65 11.65 0 0 0 5.62 5.637.8.8 0 0 0 .61 0 .804.804 0 0 0 .458-.419l.498-1.127c.415.149.839.273 1.269.37.214.049.43.09.65.121a.805.805 0 0 1 .634.806l.016 2.512z">
+                            </path>
+                        </g>
+                    </svg> -->
+                        </ul>
+                    </div>
+                    <label for="nav__input" class="header-btn">
+                        <i class="fas fa-bars bar-icon"></i>
+                    </label>
+                    <input type="checkbox" hidden class="nav__input" id="nav__input">
+                    <div class="nav__mobile">
+                        <div class="nav__mobile-header">
+                            <img src="./asset/img/logo.png" alt="" class="logo-mobile-img">
+                            <h1 class="nav__title">
+                                <span class="logo-slogan">decor for yourhome</span>
+                            </h1>
+                            <label for="nav__input" class="nav__mobile-btn-close">×</label>
+                        </div>
+                        <hr class="nav__line">
+                        <ul class="nav__mobile-list">
+                            <li class="nav__mobile-item">
+                                <a href="#" class="nav__mobile-link">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#services" class="nav__mobile-link">
+                                    Dịch vụ
+                                </a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#project" class="nav__mobile-link">
+                                    Dự án
+                                </a>
+                            </li>
+                            <li class="nav__mobile-item">
+                                <a href="#contact" class="nav__mobile-link">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <!-- End Header -->
+
+        <!-- Section Process -->
+        <div class="container section process" id="process">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="process-content">
+                        <h2 class="heading-title">
+                            Quy trình làm việc
+                        </h2>
+                        <p class="desc">
+                            Để biến ngôi nhà mơ ước của mình thành hiện thực là một quá trình làm việc nghiêm túc kỹ lưỡng giữa Chủ Đầu Tư và Nhà Thầu. FaceHome với mong muốn xây dựng ngôi nhà bền vững cho bạn, chúng tôi luôn sẵn sàng phục vụ bạn bất cứ yêu cầu nào.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- <div class="col-6 process-img-bg">
+                    <img src="./asset/img/section-process-img.jpg" alt="" class="progress-img">
+                </div> -->
+            </div>
+            <div class="row prcs">
+                <div class="col-xxl-3 col-xl-4">
+                    <div class="process-number bg-main">
+                        <div class="row-one">
+                            <span class="process-h1-bg-main">
+                                1
+                            </span>
+                            <h2 class="process-h2 text-white">
+                                Tư Vấn Xây Nhà
+                            </h2>
+                        </div>
+                        <p class="text-white">
+                            Khi chuẩn bị xây nhà, bạn có rất nhiều câu hỏi về thiết kế, xây dựng, kinh phí xây dựng, xin phép xây dựng,...Facehome sẽ tư vấn và giải đáp các thắc mắc cho bạn miễn phí.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 mt-40">
+                    <div class="process-number process-2">
+                        <div class="row-one">
+                            <span class="process-h1">
+                                2
+                            </span>
+                            <h2 class="process-h2">
+                                Thiết Kế Kiến Trúc
+                            </h2>
+                        </div>
+                        <p class="text-black-50">
+                            Sau khi ký hợp đồng thiết kế, KTS sẽ lên phương án kiến trúc và nội thất. Bạn và KTS cùng làm việc thật sự kỹ lưỡng thống nhất các hồ sơ thiết kế để tiến hành thi công.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row prcs">
+                <div class="col-xxl-3 col-xl-4">
+                    <div class="process-number process-2">
+                        <div class="row-one">
+                            <span class="process-h1">
+                                3
+                            </span>
+                            <h2 class="process-h2">
+                                Thi Công Xây Dựng
+                            </h2>
+                        </div>
+                        <p class="text-black-50">
+                            Công việc và tiến độ xây dựng được thể hiện chi tiết trong hợp đồng. Bạn cần nắm kỹ và làm rõ với Nhà thầu tất cả các hạng mục để đảm bảo quá trình thi công đúng tiến độ và đầy đủ.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 mt-40">
+                    <div class="process-number bg-main">
+                        <div class="row-one">
+                            <span class="process-h1-bg-main">
+                                4
+                            </span>
+                            <h2 class="process-h2 text-white">
+                                Hoàn Thiện Nội thất
+                            </h2>
+                        </div>
+                        <p class="text-white">
+                            Phần hoàn thiện sẽ có dự toán chi tiết cho tất cả các hạng mục. Sau khi các bên thống nhất sẽ tiến hành thi công và giám sát thực hiện theo đúng bản vẽ thiết kế thi công nội thất.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section Process -->
+        <!-- Section Project -->
+        <div class="container section project" id="project">
+            <h2 class="heading-title text-center">
+                Dự án mới nhất
+            </h2>
+            <p class="desc text-center">
+                Các dự án của chúng tôi mang dấu ấn riêng trong kiến trúc đã góp phần biến căn nhà trong mơ của khách hàng thành hiện thực.
+            </p>
+
+            <div class="project-show mt-40">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="./asset/img/pj-1.jpg" alt="" class="project-img">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./asset/img/pj-2.jpg" alt="" class="project-img">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./asset/img/pj-3.jpg" alt="" class="project-img">
+                    </div>
+                </div>
+                <div class="row mt-20">
+                    <div class="col-lg-4">
+                        <img src="./asset/img/pj-4.png" alt="" class="project-img">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./asset/img/pj-5.jpg" alt="" class="project-img">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./asset/img/pj-6.jpg" alt="" class="project-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container swiper-sli swiper-project">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./asset/img/pj-1.jpg" alt="" class="project-img"></div>
+                <div class="swiper-slide"><img src="./asset/img/pj-2.jpg" alt="" class="project-img"></div>
+                <div class="swiper-slide"><img src="./asset/img/pj-3.jpg" alt="" class="project-img"></div>
+                <div class="swiper-slide"><img src="./asset/img/pj-4.png" alt="" class="project-img"></div>
+                <div class="swiper-slide"><img src="./asset/img/pj-5.jpg" alt="" class="project-img"></div>
+                <div class="swiper-slide"><img src="./asset/img/pj-6.jpg" alt="" class="project-img"></div>
+            </div>
+            <!--<div class="swiper-button-next"></div>-->
+            <!--<div class="swiper-button-prev"></div>-->
+        </div>
+        <!-- End Section Project -->
+        <div class="container section services" id="services">
+            <h2 class="heading-title text-center">
+                Dịch vụ
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <p class="desc text-center">
+                        Nhằm mục đích đáp ứng tốt nhất nhu cầu của Quý khách hàng Facehome cung cấp dịch vụ thiết kế thi công xây dựng trọn gói đảm bảo chất lượng công trình từ thiết kế đến thi công hoàn thiện.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row price-tag mt-40">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="pricing-table-3 basic">
+                        <div class="pricing-table-header">
+                            <h4><strong>Thiết kế kiến trúc</strong></h4>
+                        </div>
+                        <div class="price"><strong>180.000 - 240.000</strong> đ</div>
+                        <div class="pricing-body">
+                            <ul class="pricing-table-ul">
+                                <li>
+                                    </i> Thảo luận ý tưởng kiến trúc</li>
+                                <li>
+                                    </i> Khảo sát công trình và ký hợp đồng thiết kế</li>
+                                <li>
+                                    </i> Thiết kế mặt bằng và phối cảnh 3D ngoại thất</li>
+                                <li>
+                                    </i> Triển khai chi tiết hồ sơ kiến trúc, kết cấu, ME</li>
+                                <li>
+                                    </i> Thiết kế 3D nội thất các phòng</li>
+                                <li>
+                                    </i> Triển khai hồ sơ chi tiết kỹ thuật thi công nội thất</li>
+                                <li>
+                                    </i> Bàn giao hồ sơ, tư vấn, giải thích kỹ thuật</li>
+                                <li>
+                                    </i> Giúp chủ đầu tư lựa chọn vật liệu</li>
+                            </ul>
+                            <div class="submit-block">
+                                <button type="button" class="btn btn-advise btn-animation-6"><span class="span-btn">Chi
+                                        tiết</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="pricing-table-3 premium">
+                        <div class="pricing-table-header">
+                            <h4><strong>Thi công xây dựng</strong></h4>
+                        </div>
+                        <div class="price"><strong>3,300,000</strong>đ / m2</div>
+                        <div class="pricing-body">
+                            <ul class="pricing-table-ul">
+                                <li>
+                                    </i> Dọn dẹp vệ sinh công trình</li>
+                                <li>
+                                    </i> Xây công trình ngầm: bể tự hoại, hố ga bằng gạch ống</li>
+                                <li>
+                                    </i> Đào móng, xử lý nền, thi công cốt pha, cốt thép, đổ bê tông móng từ đầu cọc trở lên.
+                                </li>
+                                <li>
+                                    </i> Thi công cốt pha, cốt thép, đổ bê tông đà giằng, đà kiềng, dầm, cột, sàn, cầu thang
+                                </li>
+                                <li>
+                                    </i> Xây tô tất cả các tường bao che, tường ngăn phòng, hộp gen kỹ thuật.</li>
+                                <li>
+                                    </i> Xây bậc tam cấp, bậc cầu thang (không tô)</li>
+                                <li>
+                                    </i> Lắp đặt dây điện âm, ống nước lạnh âm,</li>
+                                <li>
+                                    </i> Thi công lắp đặt dây điện thoại, dây internet, cáp truyền hình</li>
+                                <li>
+                                    </i> Chống thấm sàn sân thượng, sàn vệ sinh, sàn mái và ban công</li>
+                                <li>
+                                    </i> Nhân công hoàn hiện (lát gạch, sơn nước, lắp đặt thiết bị điện và thiết bị vệ sinh)
+                                </li>
+                            </ul>
+                            <div class="submit-block"><button type="button" class="btn btn-advise btn-animation-6"><span
+                                        class="span-btn">Chi tiết</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="pricing-table-3 business">
+                        <div class="pricing-table-header">
+                            <h4><strong>Hoàn thiện nội thất</strong></h4>
+                        </div>
+                        <div class="price"><strong>~ 3,500,000</strong> đ</div>
+                        <div class="pricing-body">
+                            <ul class="pricing-table-ul">
+                                <li>
+                                    </i> Thảo luận lên ý tưởng nội thất</li>
+                                <li>
+                                    </i> Ký hợp đồng và duyệt layout và ý tưởng nội thất</li>
+                                <li>
+                                    </i> Duyệt thiết kế phối cảnh 3D nội thất các không gian</li>
+                                <li>
+                                    </i> Triển khai chi tiết kỹ thuật vật dụng nội thất</li>
+                                <li>
+                                    </i> Thương thảo về hợp đồng thi công nội thất</li>
+                                <li>
+                                    </i> Sản xuất sản phẩm nội thất và lắp đặt tại công trình</li>
+                                <li>
+                                    </i> Nghiệm thu – Bàn giao- Thanh lý – Bảo hành</li>
+
+                            </ul>
+                            <div class="submit-block">
+                                <button type="button" class="btn btn-advise btn-animation-6"><span class="span-btn">Chi
+                                        tiết</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container section contact" id="contact">
+            <div class="row justify-content-center ">
+                <div class="col-lg-6 about-us">
+                    <div class="row justify-content-center align-items-center heigh100">
+                        <div class="col-xxl-12 text-center text-white">
+                            <label for="">Email:</label>
+                            <p></p>
+                            <a class="text-white" href="mailto:info@homecorp.vn">info@homecorp.vn</a>
+                        </div>
+                        <div class="col-xxl-12 text-center text-white">
+                            <label for="">Phone:</label>
+                            <p></p>
+                            <a class="text-white" href="tel:0363222225">0363222225</a>
+                        </div>
+                        <div class="col-xxl-12 text-center text-white">
+                            <label for="">Address:</label>
+                            <p></p>
+                            <a class="text-white" href="#footer">213/28/2/1A Tân Thới Hiệp 7, Phường Tân Thới Hiệp, Quận
+                                12,
+                                TP.HCM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 contact-us mt-40">
+                    <div class="row justify-content-center">
+                        <div class="col-10 ">
+                            <h2>
+                                Hãy cùng chúng tôi xây dựng ngôi nhà mơ ước cho bạn!
+                            </h2>
+                            <p class="desc mt-20">
+                                Với đội ngũ thiết kế kiến trúc và thi công xây dựng chuyên nghiệp, FaceHome sẽ giúp bạn biến ngôi nhà mơ ước của mình thành hiện thực.
+                            </p>
+
+                            <form id="contact-form-index" class="row g-3 mt-20 needs-validation" novalidate>
+                                <div class="col-lg-12">
+                                    <input type="text" class="form-control" name="contactName" placeholder="Họ tên" required>
+                                    <div class="invalid-feedback">
+                                        Vui lòng điền họ tên
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="email" class="form-control" name="contactEmail" placeholder="Email" required>
+                                    <div class="invalid-feedback">
+                                        Vui lòng điền email
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="number" class="form-control" name="contactPhone" placeholder="Số điện thoại" required>
+                                    <div class="invalid-feedback">
+                                        Vui lòng điền số điện thoại
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <textarea type="" class="form-control" name="contactTextarea" placeholder="Yêu cầu của bạn" required rows="3"> </textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="button" id="submit-contact-index" class="btn btn-advise btn-animation-6 btn-mb"><span
+                                            class="span-btn">Gửi</span></button>
+                                </div>
+                            </form>
+                            <div id="content-get-success"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid site-footer" id="footer">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-xl-4 mt-20">
+                        <a href="https://homecorp.vn">
+                            <img src="./asset/img/logo.png" alt="" class="footer-logo">
+                            <span class="logo-slogan footer-logo-slogan">decor for yourhome</span>
+                        </a>
+                        <div class="mt-20">
+                            <h4>CÔNG TY TNHH HOMECORP</h4>
+                            <p class="mt-20"> <strong>Mã số thuế:</strong> 0316497772</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <strong>Địa chỉ:</strong> 213/28/2/1A Tân Thới Hiệp 7, Phường Tân Thới Hiệp, Quận 12, TP.HCM
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <strong>Văn phòng:</strong> Tòa nhà SaigonCo.op Home, 688/57 Lê Đức Thọ, Phường 15, Quận Gò Vấp, TP.HCM
+                                <a target="__blank" id="footer-address" href="https://www.google.com/maps/place/SaigonCo.op+Home/@10.8499224,106.6734082,19z/data=!3m1!4b1!4m5!3m4!1s0x317529f332d66141:0x282dca2e3f938706!8m2!3d10.8499211!4d106.6739567?hl=vi">
+                                    Chỉ đường </a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone-alt"></i>
+                                <strong>Điện thoại:</strong> <a href="tel:0363222225">0363222225</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                <strong>Email:</strong> <a href="mailto:info@homecorp.vn">info@homecorp.vn</a>
+                            </p>
+                            <p>
+                                <i class="fab fa-facebook"></i>
+                                <strong>Fanpage:</strong>
+                                <a href="https://www.facebook.com/homecorp.vn" target="__blank">https://fb.com/homecorp.vn</a>
+                            </p>
+                            <!-- <p>
+                                <img src="./asset/img/zalo.png" alt="" class="footer-zalo">
+                                <strong>Zalo:</strong>
+                                <a href="https://zalo.me/0363222225">0363222225</a>
+                            </p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-5 gg-map mt-40">
+                        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692.6993182987183!2d106.67430848337497!3d10.84959375273374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529f332d66141%3A0x282dca2e3f938706!2sSaigonCo.op%20Home!5e0!3m2!1svi!2s!4v1628948323628!5m2!1svi!2s"
+                            width="750" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-xl-3 fb-plugin mt-40">
+                        <div class="fb-page" data-href="https://www.facebook.com/homecorp.vn" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/homecorp.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/homecorp.vn">FaceHome - 𝘥𝘦𝘤𝘰𝘳 𝘧𝘰𝘳
+                                    𝘺𝘰𝘶𝘳𝘩𝘰𝘮𝘦</a></blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright text-center">
+                <section class="light">
+                    <p> © 2021 - FaceHome - 𝘥𝘦𝘤𝘰𝘳 𝘧𝘰𝘳 𝘺𝘰𝘶𝘳𝘩𝘰𝘮𝘦
+                        <!-- <a class="gradient1" id="link-footer"
+                            href="https://www.facebook.com/100004498530827/" target="_blank">Hưng Gia Thái</a> -->
+                    </p>
+                </section>
+            </div>
+
+            <a href="tel:0363222225" class="call">
+                <div class="pulse"> <i class="fas fa-phone fa-2x"></i>
+                </div>
+            </a>
+
+            <!-- Messenger Plugin chat Code -->
+            <div id="fb-root"></div>
+
+            <!-- Your Plugin chat code -->
+            <div id="fb-customer-chat" class="fb-customerchat">
+            </div>
+
+
+        </footer>
+
+    </div>
+
+</body>
+
+
+<!-- JS facebook -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="qwYv3xxD"></script>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "111726663922842");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml: true,
+            version: 'v11.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<!-- JS Swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".swiper-sli", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+<script>
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+        var btnSubmitForm = document.querySelector('#submit-contact-index')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function(form) {
+                btnSubmitForm.addEventListener('click', function(event) {
+                    if (!form.checkValidity()) {
+
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                    $(document).ready(function() {
+                        $("#submit-contact-index").click(function() {
+                            var formInputName = $('input[name="contactName"]').val();
+                            var formInputEmail = $('input[name="contactEmail"]').val();
+                            var formInputPhone = $('input[name="contactPhone"]').val();
+                            var formInputPhone = $('input[name="contactTextArea"]').val();
+                            if (formInputName == '' || formInputEmail == '' || formInputPhone == '') {
+                                $('#alert-success-form-contact-index').attr('style', 'display: none;')
+                                event.preventDefault();
+                                return false;
+                            }
+                            var values = $('form#contact-form-index').serialize();
+                            $.ajax({
+                                type: 'POST',
+                                url: 'https://homecorp.vn/contact-form.php',
+                                data: values,
+                                success: function(data) {
+                                    if (data == '') {
+                                        alert('Error! Please contact web Administrator');
+
+                                    } else {
+                                        $('#content-get-success').html(data);
+
+                                    }
+                                }
+                            })
+
+                            return false;
+                        });
+                    });
+                }, false)
+            })
+    })()
+</script>
+
+
+
+</html>
